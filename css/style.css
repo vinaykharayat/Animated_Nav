@@ -64,3 +64,42 @@ body ul {
     background-color: #b94071;
     position: absolute;
 }
+
+@media only screen and (max-width: 1024px) {
+    #para {
+        font-size: 2rem;
+    }
+}
+
+@media only screen and (max-width: 600px) {
+    #nav {
+        position: absolute;
+        display: inline;
+        right: 5px;
+        margin-right: 1vw;
+        padding: 25px;
+        z-index: 2;
+    }
+    #nav>div {
+        position: relative;
+        border: rgba(255, 255, 255, 0.5) solid;
+        box-shadow: 2px 2px 12px black;
+        width: 40px;
+        margin-bottom: 10px;
+        border-radius: 2px;
+    }
+    body ul {
+        position: absolute;
+        list-style: none;
+        text-align: center;
+        display: none;
+        left: 45%;
+        top: 0%;
+        width: 50vw;
+        transform: translate(-50%, -50%);
+        font-size: 1.5rem;
+    }
+    #para {
+        font-size: 1.5rem;
+    }
+}
