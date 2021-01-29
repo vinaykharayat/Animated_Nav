@@ -11,6 +11,10 @@ body>div {
     display: flex;
 }
 
+#second {
+    left: 0;
+}
+
 body ul {
     position: absolute;
     list-style: none;
@@ -51,6 +55,7 @@ body ul {
 }
 
 #leftColor {
+    width: 0;
     height: 100%;
     z-index: 1;
     background-color: #b94071;
@@ -58,6 +63,7 @@ body ul {
 }
 
 #rightColor {
+    width: 0;
     height: 100%;
     z-index: 1;
     right: 0;
